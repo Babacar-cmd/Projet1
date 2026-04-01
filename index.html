@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie Média - Projet Poubelle Intelligente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Présentation Multimédia : Projet SmartBin</h1>
+        <p>Développement d'un système embarqué pour la gestion automatisée des déchets.</p>
+        <nav>
+            <ul>
+                <li><a href="#photos">Photos du Montage</a></li>
+                <li><a href="#schemas">Schémas Techniques</a></li>
+                <li><a href="#demonstration">Démonstration Vidéo</a></li>
+            </ul>
+        </nav>
+        <img src="SG.png" height="250" width="240" alt="">
+        <a href="#"><h2>A propos de moi</h2></a>
+    </header>
+
+    <main>
+        <section id="photos">
+            <h2>Photos du Prototype</h2>
+            <p>Aperçu du matériel utilisé (Arduino, Capteurs HC-SR04, Servomoteur).</p>
+            
+            <figure>
+                <img src="esp32.jpg" height="200" width="200" alt="Vue d'ensemble de l'arduino" width="600">
+                <figcaption>Photo 1 : Vue d'ensemble de l'esp32.</figcaption>
+            </figure>
+
+            <figure>
+                <img src="capteur.jpg" height="200" width="200" alt="Zoom sur le capteur ultrasonique en façade" width="600">
+                <figcaption>Photo 2 : Détail du capteur de détection de présence.</figcaption>
+            </figure>
+            <figure>
+                <img src="servo.jpg" height="200" width="200" alt="Vue d'ensemble du Servomoteur">
+                <img src="cable.jpg" height="200" width="200" height="200" width="200" alt="Vue d'ensemble du cable principal">
+                <figcaption>Photo 3 : Détail du Servomoteur et du cable d'alimentation</figcaption>
+            </figure>
+        </section>
+
+        <hr>
+
+        <section id="schemas">
+            <h2>Schémas de Conception</h2>
+            <p>Diagrammes de câblage et architecture du système.</p>
+            
+            <figure>
+                <img src="montage.jpg" height="200" width="200" alt="Schéma de câblage" width="600">
+                <figcaption>Schéma technique : Connexion entre l'esp32 et les composants.</figcaption>
+            </figure>
+        </section>
+
+        <hr>
+
+        <section id="demonstration">
+            <h2>Démonstration en Vidéo</h2>
+            <p>Vidéo montrant l'ouverture automatique et la détection du taux de remplissage.</p>
+
+            <video height="500" width="500" controls poster="imgvidéo.jpg">
+                <source src="vidéo.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+            </video>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Réalisé par Babacar MBOW - L2 Génie Logiciel & Administration Réseaux</p>
+        <p>Mars 2026</p>
+    </footer>
+
+</body>
+</html>

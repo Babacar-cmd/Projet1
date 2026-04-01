@@ -1,0 +1,153 @@
+/* Palette de couleurs sobre et moderne */
+:root {
+    --bg-color: #f1f2f6;
+    --card-bg: #ffffff;
+    --text-color: #2f3640;
+    --accent-color: #3498db; /* Bleu technique */
+    --caption-color: #7f8c8d;
+    --shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* En-tête */
+header {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: white;
+}
+header img{
+    border-radius: 60%;
+    box-shadow: 2px 3px 4px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 1.5rem;
+}
+
+nav ul li a {
+    color: #bdc3c7;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: var(--accent-color);
+}
+
+/* Conteneur principal */
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+h2 {
+    border-bottom: 3px solid var(--accent-color);
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 2rem;
+}
+
+/* Style des Images (Figures) */
+figure {
+    background: var(--card-bg);
+    margin: 2rem 0;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    text-align: center;
+    transition: transform 0.3s ease;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+}
+
+figure:hover {
+    transform: scale(1.02);
+    scale: 1;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    box-shadow: 2px 1px 3px;
+}
+
+figcaption {
+    margin-top: 15px;
+    font-style: italic;
+    color: var(--caption-color);
+    font-size: 0.95rem;
+}
+
+/* Style de la Vidéo */
+video {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    background-color: #000;
+}
+
+.video-externe {
+    margin-top: 2rem;
+    padding: 20px;
+    background: #ebeef1;
+    border-radius: 12px;
+    text-align: center;
+}
+
+iframe {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+}
+
+/* Pied de page */
+footer {
+    text-align: center;
+    padding: 3rem;
+    background: #2c3e50;
+    color: #bdc3c7;
+    margin-top: 4rem;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Séparateur horizontal */
+hr {
+    border: 0;
+    height: 1px;
+    background: #dcdde1;
+    margin: 3rem 0;
+}
